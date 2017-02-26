@@ -32,13 +32,11 @@ p {
   background-color: #d32028;
 }
 
-/*.button-collapse {
-  color: #dadada;
-}*/
-/*
-.dropdown-button {
-  color: #dadada;
-}*/
+#parallax-image {
+  width: 100%;
+  height: auto;
+  min-width: 1000px;
+}
 
 .parallax-container {
   min-height: 380px;
@@ -46,11 +44,22 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
+
+.btn.waves-effect {
+    height: auto;
+    min-height: 20px;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 
 @media only screen and (max-width : 992px) {
+  .parallax-container {
+    min-height: 280px;
+  }
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -66,11 +75,16 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
+  .parallax-container {
+    min-height: 230px;
+  }
+  #parallax-image {
+    margin-left: -10%;
+  }
   #index-banner .section {
     top: 0;
     /*width: 100%;*/
   }
-
   #logo-image {
      width: 231px;
      height: 49px;
