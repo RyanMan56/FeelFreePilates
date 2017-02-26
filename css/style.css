@@ -38,6 +38,10 @@ p {
   min-width: 1000px;
 }
 
+#button-text {
+  font-size: large;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -67,6 +71,9 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  #button-text {
+    font-size: medium;
+  }
 
   .nav-logo {
     padding: 0;
@@ -88,6 +95,16 @@ p {
   #logo-image {
      width: 231px;
      height: 49px;
+  }
+  #button-text {
+    font-size: small;
+  }
+  .btn-large.waves-effect {
+      height: auto;
+      min-height: 20px;
+      line-height: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
   }
 }
 
