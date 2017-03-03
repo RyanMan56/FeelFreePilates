@@ -79,10 +79,6 @@ p {
   #button-text {
     font-size: medium;
   }
-  /*#text-button {
-    font-size: 150%;
-  }*/
-
   .nav-logo {
     padding: 0;
     margin-top: 1.5px;
@@ -98,7 +94,6 @@ p {
   }
   #index-banner .section {
     top: 0;
-    /*width: 100%;*/
   }
   #logo-image {
      width: 231px;
