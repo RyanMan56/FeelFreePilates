@@ -47,6 +47,11 @@ p {
   font-size: 200%;
 }
 
+#facebook {
+  width: 128px;
+  height: auto;
+}
+
 .parallax-container {
   min-height: 500px;
   line-height: 0;
