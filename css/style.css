@@ -13,6 +13,7 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: medium;
 }
 
 #logo-image {
@@ -44,7 +45,7 @@ p {
 
 #text-button {
   color: #d32028;
-  font-size: 200%;
+  font-size: x-large;
 }
 
 #facebook {
