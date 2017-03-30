@@ -12,7 +12,7 @@
   <script>
     window.smoothScroll = function(target) {
       var mq = window.matchMedia( "(max-width : 992px)" );
-      var navOffset = -80;
+      var navOffset = -60;
       if (mq.matches) {
         navOffset = 0;
       }
@@ -44,7 +44,7 @@
 <body>
 
   <ul id="nav-mobile" class="dropdown-content">
-    <li><a class="red-text text-darken-2" href="#!">Contact</a></li>
+    <li><a class="red-text text-darken-2" href="contact.html">Contact</a></li>
   </ul>
   <div id="nav-container" class="navbar-fixed white hide-on-med-and-down">
     <nav class="white nav-logo" role="navigation">
@@ -83,7 +83,7 @@
         <h4 id="parallax-text" class="header center hide-on-med-and-up">Classical pilates classes available in Wirral</h4>
         <div class="row center">
           <div class="col s6">
-              <a href="#" id="classes-button" onclick="smoothScroll(document.getElementById('class-times'))" class="btn-large waves-effect waves-light">
+              <a href="#" id="classes-button" onclick="smoothScroll(document.getElementById('class-times-banner'))" class="btn-large waves-effect waves-light">
                 <div id="button-text">View class times</div>
               </a>
           </div>
@@ -105,12 +105,12 @@
     <div class="section">
       <h4>Enjoy the freedom to move.</h4>
       <p class="left-align  ">What is Pilates?</p>
-      <p class="left-align  ">The Pilates method - originally called "Contrology" was created by Joseph Pilates. Pilates was born in Germany in 1880 and suffering as a child from asthma, rickets and rheumatic fever he dedicated his entire life to improving his physical strength. He was introduced by his father to bodybuilding, gymnastics and martial arts and from then on he devoted a major part of his life to the scientific study of the body and developed a system of exercises - what we now know as classical Pilates.</p>
-      <p class="left-align  ">Joseph Pilates presents his method as the 'art of control' which should look and feel like a workout. Pilates is a system designed to develop muscles of the body, improve suppleness of the limbs and improve stamina. Moreover, It puts emphasis on breathing, developing a strong core and improving co-ordination and balance. Pilates emphasis on breathing was to increase the intake of oxygen and improve circulation to every part of the body.</p>
-      <p class="left-align  ">Pilates is for everybody, any age and fitness level. The level starts from beginner, progressing to intermediate and advanced practice.</p>
+      <p class="left-align  ">The Pilates method - originally called "Contrology" was created by Joseph Pilates. Pilates was born in Germany in 1880 and suffering as a child from asthma, rickets and rheumatic fever he dedicated his entire life to improving his physical strength. He was introduced by his father to bodybuilding, gymnastics and martial arts and from then on he devoted a major part of his life to the scientific study of the body and developed a system of exercises - what we now know as classical Pilates</p>
+      <p class="left-align  ">Joseph Pilates presents his method as the 'art of control' which should look and feel like a workout. Pilates is a system designed to develop muscles of the body, improve suppleness of the limbs and improve stamina. Moreover, It puts emphasis on breathing, developing a strong core and improving co-ordination and balance. Pilates emphasis on breathing was to increase the intake of oxygen and improve circulation to every part of the body</p>
+      <p class="left-align  ">Pilates is for everybody, any age and fitness level. The level starts from beginner, progressing to intermediate and advanced practice</p>
       <div class="col s12 center">
         <p>
-          <a id="text-button" class="" href="#"><b>Contact us</b></a>
+          <a id="text-button" class="" href="contact.html"><b>Contact us</b></a>
         </p>
       </div>
     </div>
@@ -124,9 +124,9 @@
         <div class="col l7 m7">
           <h5>Kelly Hurley</h5>
           <h6>Owner and Head Trainer</h6>
-          <p class="left-align  ">Kelly Hurley creator of Feel Free Pilates has vast experience in health and fitness. She was previously a personal trainer and practiced bodybuilding for many years and in 2009 she was the winner in her first competition. Furthermore, Kelly has a degree in Physical Education and Youth Sport Coaching.</p>
-          <p class="left-align  ">Moving to Portsmouth in 2012, she was introduced to a Pilates studio where she was accepted as a new apprentice and began to study the pilates system with mentor Amy Kellow. Amy studied with Jay Grimes - a former student of Joseph Pilates. This opportunity continues to be much more than she had imagined.</p>
-          <p class="left-align  ">Kelly had a feeling after her first session that she found something brilliant and is amazed by how much stronger she is now. She continues to study with likeminded teachers from all over the world which include regular Skype sessions with Amy. Kelly believes everyone needs the eyes of a good teacher! Furthermore, Kelly encourages her clients to understand the exercises and connections in the body so that everyone can feel the benefits of classical Pilates and experience the magic within the method.</p>
+          <p class="left-align  ">Kelly Hurley creator of Feel Free Pilates has vast experience in health and fitness. She was previously a personal trainer and practiced bodybuilding for many years and in 2009 she was the winner in her first competition. Furthermore, Kelly has a degree in Physical Education and Youth Sport Coaching</p>
+          <p class="left-align  ">Moving to Portsmouth in 2012, she was introduced to a Pilates studio where she was accepted as a new apprentice and began to study the pilates system with mentor Amy Kellow. Amy studied with Jay Grimes - a former student of Joseph Pilates. This opportunity continues to be much more than she had imagined</p>
+          <p class="left-align  ">Kelly had a feeling after her first session that she found something brilliant and is amazed by how much stronger she is now. She continues to study with likeminded teachers from all over the world which include regular Skype sessions with Amy. Kelly believes everyone needs the eyes of a good teacher! Furthermore, Kelly encourages her clients to understand the exercises and connections in the body so that everyone can feel the benefits of classical Pilates and experience the magic within the method</p>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@
     </div>
   </div>
 
-  <div id="index-banner" class="parallax-container valign-wrapper">
+  <div id="class-times-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
@@ -230,13 +230,10 @@
     <div class="divider"></div>
     <div class="section">
       <h4>Pilates during and after pregnancy.</h4>
-      <p class="">Pilates is for everybody Including woman in the antinatal and postnatal phases. Once you have been seen by the doctor you are good to go!</p>
-      <div class="row">
-        <div class="col s12 center">
-          <a id="text-button" class="" href="#"><b>More info</b></a>
-        </div>
-      </div>
+      <p>Pilates is for everybody Including woman in the antinatal and postnatal phases. Once you have been seen by the doctor you are good to go!</p>
+      <p>Personal attention is given to all participants. Please contact us for more information.</p>
     </div>
+    <div class="divider"></div>
   </div>
 
 
